@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@nestjs/cli": "^8.2.5",
+    "amqplib": "^0.8.0",
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "g": "^2.0.1",
+    "helmet": "^5.0.2",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  },
+  "name": "fluxo-de-caixa-gateway",
+  "description": "Gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogerioBarbosa/fluxo-de-caixa-gateway.git"
+  },
+  "author": "Rogerio Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogerioBarbosa/fluxo-de-caixa-gateway/issues"
+  },
+  "homepage": "https://github.com/RogerioBarbosa/fluxo-de-caixa-gateway#readme"
+}
